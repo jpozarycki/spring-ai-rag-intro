@@ -24,7 +24,7 @@ public class QuestionServiceImpl implements QuestionService {
     private final ChatClient chatClient;
     private final SimpleVectorStore simpleVectorStore;
 
-    @Value("classpath:templates/rag-prompt-template.st")
+    @Value("classpath:templates/rag-prompt-template-meta.st")
     private Resource ragPromptTemplate;
 
     @Override
