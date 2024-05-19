@@ -35,6 +35,7 @@ public class VectorStoreConfig {
                 store.add(splitDocs);
             });
             store.save(vectorStoreFile);
+
         }
         return store;
     }
